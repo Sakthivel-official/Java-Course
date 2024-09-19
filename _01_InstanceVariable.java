@@ -1,5 +1,5 @@
 
-public class InstanceVariable {
+public class _01_InstanceVariable {
 	
 	public static String var="Sakthivel";  //Instance variables
 	static int i=90;
