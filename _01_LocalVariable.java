@@ -1,5 +1,5 @@
 
-public class LocalVariable {
+public class _01_LocalVariable {
 
 	public static void main(String[] args) {
 		
