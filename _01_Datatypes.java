@@ -1,8 +1,10 @@
 
-public class Datatypes {
+public class _01_Datatypes {
 
 	public static void main(String[] args) {
 		
+
+		//1. primitive Datatypes
 		
 //		integer datatype
 		int age=19;
@@ -15,7 +17,8 @@ public class Datatypes {
 		
 //		boolean datatype
 		boolean maried=true;
-		
+
+		//2. Reference Datatypes
 //		sequence datatype
 		String name="Sakthivel";
 		char c='D';
