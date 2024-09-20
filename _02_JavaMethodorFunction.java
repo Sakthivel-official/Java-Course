@@ -1,5 +1,5 @@
 
-public class JavaMethodorFunction {
+public class _02_JavaMethodorFunction {
 
 //		static returntype functionname
 	static void myStaticMethod() {
@@ -26,12 +26,12 @@ public class JavaMethodorFunction {
 	
 //	myPublicMethod(); cann't be access
 	
-	JavaMethodorFunction funobj=new JavaMethodorFunction(); //creating an object 
+	_02_JavaMethodorFunction funobj=new _02_JavaMethodorFunction(); //creating an object 
 	
 	funobj.myPublicMethod(); //call the public method on the object
 		
 	
-	JavaMethodorFunction funobj1=new JavaMethodorFunction(); //creating an object 
+	_02_JavaMethodorFunction funobj1=new _02_JavaMethodorFunction(); //creating an object 
 
 	funobj1.pupAge();  //call the pupAge() method
 	
