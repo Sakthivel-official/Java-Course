@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TestAccount {
+public class _02_TestAccount.java {
 
 	public static void main(String[] args) {
 
@@ -20,14 +20,14 @@ public class TestAccount {
 		System.out.println("First you need to Create/Add Account ->>");
 		
 		do {
-			System.out.println("\n1.Add Account\n2.Deposit\n3.CheckBalance\n4.Withdraw\n5.Account Details\n");
+		    System.out.println("\n1.Add Account\n2.Deposit\n3.CheckBalance\n4.Withdraw\n5.Account Details\n");
 			
-			try {
+	            try {
 			userinput=in.nextInt();
-			}
-			catch(Exception e) {
-				System.err.println("Please Enter a Number(1/2/3/4)");
-			}
+		     }
+		    catch(Exception e) {
+			System.err.println("Please Enter a Number(1/2/3/4)");
+		     }
 			
 		switch(userinput) {
 		
@@ -64,7 +64,8 @@ public class TestAccount {
 				System.out.println("Enter Valid Number to Process >>");
 				
 		}
-				System.out.print("\nYou want to Exit (y/n) " );
+		
+		System.out.print("\nYou want to Exit (y/n) " );
 		exit=in.next().toLowerCase();
 				
 		}while(!exit.equals("y"));
