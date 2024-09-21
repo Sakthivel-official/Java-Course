@@ -1,5 +1,5 @@
 
-public class NestedSwitch {
+public class _03_NestedSwitch {
 
 	public static void main(String[] args) {
 
