@@ -1,5 +1,5 @@
 
-public class SwitchStatement {
+public class _03_SwitchStatement {
 
 	public static void main(String[] args) {
 		
