@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class If_Else_if_Else {
+public class _03_If_Else_if_Else {
 
 	public static void main(String[] args) {
 
@@ -8,7 +8,7 @@ public class If_Else_if_Else {
 		System.out.print("Enter You Mark: ");
 		int mark=in.nextInt();
 		
-		if(mark>100) 
+		if(mark>100)   //{}-no brackets need for single line code 
 			System.out.println("Please Enter Your Correct/Mark less than 100");
 		else if(mark>90 && mark<=100)
 			System.out.println("You are O grade");
