@@ -1,5 +1,5 @@
 
-public class NestedIf {
+public class _03_NestedIf {
 
 	public static void main(String[] args) {
 
