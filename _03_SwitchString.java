@@ -1,5 +1,5 @@
 
-public class SwitchString {
+public class _03_SwitchString {
 
 	public static void main(String[] args) {
 
