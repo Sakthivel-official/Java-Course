@@ -1,5 +1,5 @@
 
-public class SimpleIf {
+public class _03_1_SimpleIf {
 	
 //	if(condition){
 //		code
