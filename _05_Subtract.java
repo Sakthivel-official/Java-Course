@@ -1,7 +1,6 @@
 
 public class Subtract {
 	
-	
 	//int return type
 	public int subtract(int a,int b) {
 		int sub = a - b;
