@@ -8,7 +8,7 @@ abstract class Shape{
 	}
 }
 
-//In scenario, immplementation 
+//In scenario, implementation 
 class Rectangle extends Shape{
 	
 	@Override
