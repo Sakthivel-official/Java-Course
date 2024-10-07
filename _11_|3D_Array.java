@@ -8,13 +8,13 @@ public class _3D_Array {
 		
 		
 		//Initializing values
-//		for(int i=0;i<2;i++) {
-//			for(int j=0;j<3;j++) {
-//				for(int k=0;k<4;k++) {
-//					cube[i][j][k] = i+j+k;
-//				}
-//			}
-//		}
+		for(int i=0;i<2;i++) {
+			for(int j=0;j<3;j++) {
+				for(int k=0;k<4;k++) {
+					cube[i][j][k] = i+j+k;
+				}
+			}
+		}
 		
 		
 		
