@@ -25,27 +25,27 @@ public class Inserting_ele {
 		
 		Scanner in = new Scanner(System.in);
 		
-//		System.out.print("Enter the Size of Array: ");
-//		int size = in.nextInt();
-//		int[] arr = new int[size];
-//		System.out.println("Enter the elements");
-//		
-//		for(int i=0;i<size;i++) {
-//			System.out.print("Enter "+i+" Element: ");
-//			arr[i] = in.nextInt();
-//		}
-//		
-//		System.out.println("An Array: "+Arrays.toString(arr));
-//		System.out.print("Enter the Element to Insert: ");
-//		int element = in.nextInt();
-//		
-//		System.out.print("Enter the Positon: ");
-//		int pos = in.nextInt();
+		System.out.print("Enter the Size of Array: ");
+		int size = in.nextInt();
+		int[] arr = new int[size];
+		System.out.println("Enter the elements");
 		
-		int size = 3;
-		int[] arr = {2,4,7,5};
-		int element = 8;
-		int pos = 3;
+		for(int i=0;i<size;i++) {
+			System.out.print("Enter "+i+" Element: ");
+			arr[i] = in.nextInt();
+		}
+		
+		System.out.println("An Array: "+Arrays.toString(arr));
+		System.out.print("Enter the Element to Insert: ");
+		int element = in.nextInt();
+		
+		System.out.print("Enter the Positon: ");
+		int pos = in.nextInt();
+		
+		// int size = 3;
+		// int[] arr = {2,4,7,5};
+		// int element = 8;
+		// int pos = 3;
 		
 		int[] afterinserted = insertElement(size,arr,element,pos);
 		System.out.println("The New Array is: "+Arrays.toString(afterinserted));
